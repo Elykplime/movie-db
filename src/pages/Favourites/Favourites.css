@@ -1,0 +1,40 @@
+
+.main_cont{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+    gap: .5rem;
+    /* background-color: red; */
+}
+.empty{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.empty img{
+    width: 5rem;
+    height: 5rem;
+}
+
+.empty h2{
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    color: #999999;
+}
+
+.main_cont .favour_movies{
+    gap: 1rem;
+    width: 24%;
+    /* background-color: green; */
+}
+
+ .single{
+    width: 100%;
+    position: relative;
+    cursor: pointer;
+    /* background-color: yellow; */
+}

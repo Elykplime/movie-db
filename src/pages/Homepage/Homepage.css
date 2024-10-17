@@ -1,0 +1,25 @@
+.home_container{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.home_container .popular_container{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.home_container .popular_container .movies{
+    display: flex;
+    width: 100%;
+}
+
+.move{
+    width: 100%;
+}
+.movie__{
+    width: 95%;
+}

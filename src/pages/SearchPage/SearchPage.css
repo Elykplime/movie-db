@@ -1,0 +1,28 @@
+.search_container{
+    display: flex;
+    flex-direction: column
+}
+
+.search_container h1{
+    font-size: 1rem;
+    color: gray;
+}
+.search_container span{
+    color: white;
+}
+
+.search_results{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 2rem;
+    padding: 1rem;
+}
+
+.search_results .movie_card{
+    width: 24%;
+    margin-bottom: 1rem;
+    padding: .5rem;
+    background-color: #000000;
+    border-radius: 5px;
+}
